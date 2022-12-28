@@ -11,6 +11,10 @@ body {
     min-width: 100%;
 }
 
+::-webkit-scrollbar {
+  width: 0;
+}
+
 span {
     color: #cbb35b;
 }
