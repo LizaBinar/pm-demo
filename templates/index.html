@@ -1,0 +1,317 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>CodePen - bootstrap 4 navbar</title>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <link rel='stylesheet' href='https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css'>
+    <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.2/css/all.css'>
+    <link rel="stylesheet" href="../static/css/navbar.css">
+    <link rel="stylesheet" href="../static/css/main.css">
+    <link rel="stylesheet" href="../static/css/promo-card.css">
+    <link rel="stylesheet" href="../static/css/components.css">
+
+</head>
+<body>
+<!-- partial:index.partial.html -->
+<nav class="navbar navbar-expand-custom navbar-mainbg">
+    <img class="navbar-brand navbar-logo active-cursor" href="#" src="../static/img/logo12.png"/>
+    <button class="navbar-toggler" type="button" aria-controls="navbarSupportedContent" aria-expanded="false"
+            aria-label="Toggle navigation">
+        <i class="fas fa-bars text-white"></i>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav ml-auto">
+            <div class="hori-selector">
+                <div class="left"></div>
+                <div class="right"></div>
+            </div>
+            <li class="nav-item">
+                <a class="nav-link" href="javascript:void(0);"><i class="fas fa-tachometer-alt"></i>Каталог</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="javascript:void(0);"><i class="far fa-calendar-alt"></i>Карты</a>
+            </li>
+            <li class="nav-item active">
+                <a class="nav-link" href="javascript:void(0);"><i class="far fa-address-book"></i>Правила</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="javascript:void(0);"><i class="far fa-clone"></i>Wiki</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="javascript:void(0);"><i class="far fa-chart-bar"></i>Как начать игру</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="javascript:void(0);"><i class="far fa-copy"></i>Личный кабинет</a>
+            </li>
+        </ul>
+    </div>
+</nav>
+
+<div class="d-flex flex-row">
+    <div class="d-flex flex-column left-block">
+        <div class="d-flex width-100">
+            <div class="d-flex flex-column align-self-center left-block__banner">
+                <div class="d-flex flex-column mt-auto promo-card">
+                    <img style="width: 70px" src="../static/img/gold.png">
+                    <div class="d-flex">
+                        <h3>Предложение недели!</h3>
+                    </div>
+                    <div class="d-flex">
+                        <p>Ну нормально, тут топ предложение хайпова</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="d-flex left-block__catalog">
+            <div class="d-flex flex-column width-100" id="privilegesTab">
+                <div class="d-flex flex-column flex-sm-row width-100">
+                    <div class="d-flex black-card active-cursor width-100">
+                        <div class="d-flex width-50 p-2" id="fly">
+                            <div class="col icon">
+                                <img style="width: 70px" src="../static/img/gold.png">
+                            </div>
+                            <div class="col flex-column ml-auto good-price">
+                                <h4>FLY</h4>
+                                <p>15 ₽</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="d-flex black-card active-cursor width-100">
+                        <div class="d-flex width-50 p-2" id="vip">
+                            <div class="col icon">
+                                <img style="width: 70px" src="../static/img/gold.png">
+                            </div>
+                            <div class="col good-price">
+                                <h4>VIP</h4>
+                                <p>49 ₽</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="d-flex flex-column flex-sm-row width-100">
+                    <div class="d-flex black-card active-cursor width-100">
+                        <div class="d-flex width-50 p-2" id="gold">
+                            <div class="col icon">
+                                <img style="width: 70px" src="../static/img/gold.png">
+                            </div>
+                            <div class="col good-price">
+                                <h4>GOLD</h4>
+                                <p>129 ₽</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="d-flex black-card active-cursor width-100">
+                        <div class="d-flex width-50 p-2" id="ultra">
+                            <div class="col icon">
+                                <img style="width: 70px" src="../static/img/gold.png">
+                            </div>
+                            <div class="col good-price">
+                                <h4>ULTRA</h4>
+                                <p>199 ₽</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="d-flex flex-column flex-sm-row width-100">
+                    <div class="d-flex black-card active-cursor width-100">
+                        <div class="d-flex width-50 p-2" id="legenda">
+                            <div class="col icon">
+                                <img style="width: 70px" src="../static/img/gold.png">
+                            </div>
+                            <div class="col good-price">
+                                <h4>LEGENDA</h4>
+                                <p>299 ₽</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="d-flex black-card active-cursor width-100">
+                        <div class="d-flex width-50 p-2" id="ultimate">
+                            <div class="col icon">
+                                <img style="width: 70px" src="../static/img/gold.png">
+                            </div>
+                            <div class="col good-price">
+                                <h4>ULTIMATE</h4>
+                                <p>480 ₽</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="d-flex flex-column flex-sm-row width-100">
+
+                    <div class="d-flex black-card active-cursor width-100">
+                        <div class="d-flex width-50 active p-2" id="diamond">
+                            <div class="col icon">
+                                <img style="width: 70px" src="../static/img/gold.png">
+                            </div>
+                            <div class="col good-price">
+                                <h4>DIAMOND</h4>
+                                <p>620 ₽</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="d-flex black-card active-cursor width-100">
+                        <div class="d-flex width-50 p-2" id="support">
+                            <div class="col icon">
+                                <img style="width: 70px" src="../static/img/gold.png">
+                            </div>
+                            <div class="col good-price">
+                                <h4>SUPPORT</h4>
+                                <p>1199 ₽</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="d-flex flex-column flex-sm-row width-100">
+                    <div class="d-flex black-card active-cursor width-100">
+                        <div class="d-flex width-50 p-2" id="sponsor">
+                            <div class="col icon">
+                                <img style="width: 70px" src="../static/img/gold.png">
+                            </div>
+                            <div class="col good-price">
+                                <h4>SPONSOR</h4>
+                                <p>2499 ₽</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="d-flex black-card active-cursor width-100">
+                        <div class="d-flex width-50 p-2" id="creator">
+                            <div class="col icon">
+                                <img style="width: 70px" src="../static/img/gold.png">
+                            </div>
+                            <div class="col good-price">
+                                <h4>CREATOR</h4>
+                                <p>3990 ₽</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="d-flex flex-column flex-sm-row width-100">
+
+                    <div class="d-flex black-card active-cursor width-50">
+                        <div class="d-flex p-2 width-50" id="ender">
+                            <div class="col icon">
+                                <img style="width: 70px" src="../static/img/gold.png">
+                            </div>
+                            <div class="col good-price">
+                                <h4>ENDER</h4>
+                                <p>7990 ₽</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="d-flex flex-column right-block">
+        <div class="black-card card-lg" id="description">
+            <div class="card-header">
+                <img class="donate-description-img" src="assets/img/donates/ultra.png" alt="" id="img">
+                <div class="header-title">
+                    <h2 id="title">ULTRA</h2>
+                    <p id="price ">199 ₽</p>
+                </div>
+            </div>
+            <div class="card-body mt-25px">
+                <div class="row mt-20px" style="
+                      max-height: 510px;
+                      overflow-y: auto;
+                      margin-bottom: 20px;
+                    ">
+                    <div class="col-12" id="cmdOption" style="display: block">
+                        <h4 class="subtitle mb-20px font-weight-bold">
+                            <i class="fs-24 bx bx-code text-main mr-15px"></i>
+                            КОМАНДЫ
+                        </h4>
+                    </div>
+                    <div class="col-md-6 tip" id="cmds1"><p class="tip"><span
+                            class="command"> /noskin </span> - запрещает воровать ваш скин другим игрокам</p>
+                        <p class="tip"><span class="command"> /drop </span> - отключение подбора дропа</p>
+                        <p class="tip"><span class="command"> /cars </span> - доступна лошадь</p>
+                        <p class="tip"><span class="command"> /heal </span> - восполнить жизни</p>
+                        <p class="tip"><span class="command"> /speed </span> - установить скорость от 1-го до 3-х
+                        </p>
+                        <p class="tip"><span class="command"> /fw </span> - запустить фейерверк</p>
+                        <p class="tip"><span class="command"> /tp </span> - телепортироваться без запроса</p>
+                        <p class="tip"><span class="command"> /inv </span> - посмотреть инвентарь игрока</p>
+                        <p class="tip"><span class="command"> /god </span> - включить режим бога</p>
+                        <p class="tip"><span class="command"> /clear </span> - очистить инвентарь</p>
+                        <p class="tip"><span class="command"> /weather </span> - изменить погоду для себя</p>
+                        <p class="tip"><span class="command"> /day </span> - поставить день</p>
+                        <p class="tip"><span class="command"> /night </span> - поставить ночь</p>
+                        <p class="tip"><span class="command"> /youtube </span> - превратиться в ютубера</p>
+                        <p class="tip"><span class="command"> /top </span> - телепорт на 256 блоков</p></div>
+                    <div class="col-md-6 tip" id="cmds2"><p class="tip"><span
+                            class="command"> /size </span> - изменить свой размер</p>
+                        <p class="tip"><span class="command"> /gm </span> - смена режима (креатив, выживание)</p>
+                        <p class="tip"><span class="command"> /puk </span> - пукнуть на весь сервер</p>
+                        <p class="tip"><span class="command"> /jump </span> - прыгнуть</p>
+                        <p class="tip"><span class="command"> /repair </span> - бесплатная починка вещей</p>
+                        <p class="tip"><span class="command"> /ptime </span> - установка личного времени</p>
+                        <p class="tip"><span class="command"> /back </span> - вернуться на место смерти</p>
+                        <p class="tip"><span class="command"> /donatelist </span> - посмотреть список донатеров</p>
+                        <p class="tip"><span class="command"> /skin </span> - поставить скин игрока</p>
+                        <p class="tip"><span class="command"> /donchat </span> - чат донатеров</p>
+                        <p class="tip"><span class="command"> /near </span> - игроки вблизи</p>
+                        <p class="tip"><span class="command"> /vip </span> - получить вип набор</p>
+                        <p class="tip"><span class="command"> /fly </span> - режим полёта</p>
+                        <p class="tip"><span class="command"> /flylist </span> - список игроков в режиме полёта</p>
+                        <p class="tip"><span class="command"> /rename </span> - переименовать предмет</p></div>
+                    <div class="col-md-6 mt-20px" id="regionOption" style="display: block">
+                        <h4 class="subtitle mb-20px font-weight-bold">
+                            <i class="fs-24 bx bx-map text-main mr-15px"></i>
+                            РЕГИОНЫ
+                        </h4>
+                        <div id="regions"><p class="tip">12 приватов по 120000 блоков</p></div>
+                    </div>
+                    <div class="col-md-6 mt-20px" id="prefixOption" style="display: block">
+                        <h4 class="subtitle mb-20px font-weight-bold">
+                            <i class="fs-24 bx bx-tag text-main mr-15px"></i>
+                            ПРЕФИКС
+                        </h4>
+                        <div id="prefix"><p class="tip">Префикс <span style="color: purple">[ULTRA]</span></p></div>
+                    </div>
+                    <div class="col-12 mt-20px">
+                        <h4 class="subtitle mb-20px font-weight-bold" id="abilityOption" style="display: flex">
+                            <i class="fs-24 bx bx-category text-main mr-15px"></i>
+                            ДОП. ВОЗМОЖНОСТИ
+                        </h4>
+                        <div id="abilities"><p class="tip"><span class=""> 1. </span> Остается после вайпа
+                        </p></div>
+                    </div>
+                </div>
+                <a id="open-modal" class="btn pm-button bottom-30px"><i class="icon bx bx-cart fs-24"></i> КУПИТЬ ЗА
+                    <b class="ml-5px">199 ₽</b></a>
+            </div>
+        </div>
+    </div>
+    <div class="d-flex card">
+        тест
+    </div>
+</div>
+</div>
+
+<footer class="page-footer font-small blue">
+
+    <!-- Copyright -->
+    <div class="footer footer-copyright text-center py-3 pm-color">© 2020 POLITMINE:
+        <a class="pm-color" href="#"> ПРАВА НЕ ЗАЩИЩЕНЫ</a>
+    </div>
+    <!-- Copyright -->
+
+</footer>
+
+<!-- partial -->
+<script src='https://code.jquery.com/jquery-3.4.1.min.js'></script>
+<script src='https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js'></script>
+<script src='https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.min.js'></script>
+<script src="../static/js/navbar.js"></script>
+
+</body>
+</html>

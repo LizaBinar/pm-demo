@@ -1,0 +1,41 @@
+.width-100 {
+    width: 100%;
+}
+
+.width-50 {
+    width: 50%;
+}
+
+
+.pm-color {
+    color: #d2ba7d;
+}
+
+.pm-button {
+    background: #d2ba7d;
+}
+
+.command {
+    text-decoration-color: #cbb35b;
+    color: #cbb35b;
+    background: #25252a;
+    border-radius: 3px;
+}
+
+
+.black-card {
+    margin: 10px;
+    color: #d2ba7d;
+    background: #0b0b0b;
+    box-shadow: 0px 10px 13px -7px #000000, 0px 0px 25px 0px #000000;
+    border-radius: 10px;
+}
+
+.black-card:hover {
+    box-shadow: 0px 10px 13px -7px #d2ba7d, 0px 0px 25px 0px #d2ba7d;
+}
+
+.active-cursor {
+    cursor: pointer;
+}
+
