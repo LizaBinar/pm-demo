@@ -8,6 +8,7 @@ body {
     background-image: url('../img/background.png');
     background-repeat: no-repeat, repeat;
     background-attachment: fixed;
+    background-size: 100% 100%;
     min-width: 100%;
 }
 
@@ -22,6 +23,7 @@ span {
 .left-block {
     width: 100%;
     margin: 40px;
+    padding-left: 40px;
 }
 
 .left-block__banner {
@@ -36,9 +38,11 @@ span {
 .left-block__catalog {
     width: 100%;
     margin-top: 40px;
+    padding-right: 100px;
 }
 
 .right-block {
     width: 100%;
+    padding-left: 40px;
 }
 
